@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+.me {
+  text-align: center;
+  color: green;
+  background-color: white;
+  padding:5px;
+  margin:0;
+}
+
+.header{
+  padding:5px;
+  text-align:center;
+  background-color:seagreen;
+  color:white;
+}
+div.p{
+  font-size: 25px;
+  font-family:Georgia, serif;
+  text-align: justify;
+}
+.navbar{
+  display:flex;
+  background-color: lightgray;
+  position:sticky;
+  top:0;
+}
+.navbar a{
+  color:black;
+  padding:15px 20px;
+  text-decoration:none;
+  text-align:center;
+}
+.navbar a:hover{
+  background-color: black;
+  color:white;
+}
+.mine{
+  background-color:slategray;
+  padding:10px;
+  text-align:center;
+}
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+.sidebar{
+  flex:50%;
+  padding:20px;
+  background-color:darkslategray;
+}
+.main{
+  flex:50%;
+  padding:20px;
+  background-color:beige;
+}
+.im{
+  background-color:beige;
+  padding:10px
+}
+.img{
+  background-color:lightgray;
+  padding:10px
+}
+.mi{
+  background-color:lightgray;
+  padding:10px;
+}
+.ani{
+  padding:10px;
+  border-radius: 50px;
+  position:relative;
+  
+  animation-name: love;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes love{
+  0%{background-color:black; left:0px;top:0px}
+  25%{background-color:white; left:600px;top:0px}
+  50%{background-color:green; left:600px;top:50px}
+  75%{background-color:pink; left:0px;top:50px}
+  100%{background-color:darkslategrey; left:0px;top:0px}
+}
+
+
+body {
+  background-image:linear-gradient(to right, white, green);
+  font-family:Arial;
+  margin:0;
+  
+}
