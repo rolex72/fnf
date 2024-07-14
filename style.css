@@ -15,10 +15,13 @@
   background-color:seagreen;
   color:white;
 }
-div.p{
-  font-size: 25px;
+.p{
+  font-size: 15px;
   font-family:Georgia, serif;
   text-align: justify;
+  hieght:800px;
+  padding:25px 25px;
+  background-image:linear-gradient(to right, white, green);
 }
 .navbar{
   display:flex;
@@ -50,11 +53,13 @@ div.p{
 .sidebar{
   flex:50%;
   padding:20px;
+  height:auto;
   background-color:darkslategray;
 }
 .main{
   flex:50%;
   padding:20px;
+  height:auto;
   background-color:beige;
 }
 .im{
@@ -87,9 +92,9 @@ div.p{
 }
 
 
-body {
+/*body {
   background-image:linear-gradient(to right, white, green);
   font-family:Arial;
   margin:0;
   
-}
+}*/
